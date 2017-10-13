@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	background: #f9f9f9;
+}
+hr {
+	border: .5px solid #ddd;
+    opacity: .4;
+}
+#side-navigation {position: fixed; top: 30px; left: 30px;}
+#side-navigation ul{margin: 0; padding: 0;}
+#side-navigation ul li{list-style: none;}
+#side-navigation ul li a{font-family: 'calibri'; color: lightblue; text-decoration: none; margin-bottom: 5px; display: inline-block; text-transform: uppercase;}
+
+
+#wraper {
+	width: 270px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.post {
+	position: relative;
+	background: #fff;
+	padding: 10px; 
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 1px #f1f1f1;
+	min-height: 200px;
+}
+.post h4.post-title{margin-bottom: 3px; margin-top: 0px;}
+.post p.post-details{margin-bottom: 5px;font-size: 13px; line-height: 13px;margin-top: 0px;}
+.post p.post-details span{color: #d1d1d1; margin-top: 0px;font-size: 12px; line-height: 13px;}
+.post p.post-content{margin: 0px;font-size: 15px; line-height: 25px;}
+.post p.post-feedback{overflow: hidden;margin: 3px 0px;}
+.post p.post-feedback a{float:left; width: calc((270px - 20px) / 3); text-align: center;padding: 5px 0px }
+.post p.post-feedback a i{color: rgb(230,230,230)}
+
+
+.user-header {
+	min-height: 110px;
+	background: #fff;
+	position: relative;
+	width: inherit;
+}
+
+.user-icon {
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: inherit;
+	width: inherit;
+	flex-direction: column;
+}
+
+.user-icon a.user-icon-link {padding: 15px 18px;border: 1px solid #f1f1f1;border-radius: 100%;}
+.user-icon a.user-icon-link i{font-size: 30px;	color: #f1f1f1;}
